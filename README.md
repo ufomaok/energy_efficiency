@@ -7,7 +7,7 @@ It is vital to understand how a building's features can increase or decrease its
 Our dataset originated from UC Irvine's public data repository, and was created by Athanasios Tsanas and Angeliki Xifara. Our dataset is comprised of 768 instances (buildings)
 UC Irvine Data: https://archive.ics.uci.edu/dataset/242/energy+efficiency
 
-## Method
+## Methods
 
  We utilized a linear regression model, as it useful for predicting values on a continous scale (in this case Heating Load). It is important to note that some of our X variables were categorized as categorical data and were removed from modeling. However, the relationship between these X variables and Heating Load was analyzed through a correlation matrix. 
 
@@ -24,4 +24,5 @@ We utilized multiple packages (such as SciKitLearn) to perform machine learning 
 
 ## Further Research
 
-It would be helpful to analyze where a building's city and occupancy size, as this might local building requirements and regulations may play a huge role in the energy efficiency of a building. It may also be wise to analyze the relationship building usage (e.g.: apartment versus working studio), building energy consumption, and Heating Load. These are a few of many examples that engineers, architects, and policymakers can further analyze to improve building and environmental sustainability.   
+It would be helpful to analyze a building's city and occupancy size, as this might local building requirements and regulations may play a huge role in the energy efficiency of a building. It may also be wise to analyze the relationship building usage (e.g.: apartment versus working studio), building energy consumption, and Heating Load. These are a few of many examples that engineers, architects, and policymakers can further analyze to improve building and environmental sustainability.   
+
